@@ -1,0 +1,30 @@
+
+/* start slider  */
+
+#slider .carousel-item::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+#slider .carousel-item img{
+    width: 100%;
+    height: calc(100vh - 88px);
+    object-fit: cover;
+}
+/* end slider  */
+
+/* start products */
+.products-list .btns{
+    flex-wrap: wrap;
+}
+.products-list .product img{
+    height: 300px;
+    object-fit: cover;
+}
+/* end products */
+
