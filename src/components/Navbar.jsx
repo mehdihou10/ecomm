@@ -6,7 +6,7 @@ function Navbar(){
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light p-4">
         <div className="container">
-          <Link className="logo navbar-brand" to="/">Navbar</Link>
+          <Link className="logo navbar-brand" to="/">Mehdi Store</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
